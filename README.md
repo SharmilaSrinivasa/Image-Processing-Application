@@ -28,3 +28,7 @@ For Analysis and preprocessing:
 For Machine learning Model:
   Scikit learn
   
+Environment setup:
+-----------------
+Install python and anaconda python
+  
