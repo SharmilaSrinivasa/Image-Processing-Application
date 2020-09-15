@@ -40,4 +40,13 @@ python3 -m venv envName  //create virtual environment
 
 source envName/bin/activate // to activate environment
 
+Install numpy, scipy, matplotlib, pandas, jupyter, sklearn
+
+For installing all the above, create a .txt document with all the names in it.
+
+pip install -r .txt file name
+
+pip install opencv-python  // opencv
+
+
   
