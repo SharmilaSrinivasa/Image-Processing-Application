@@ -31,4 +31,13 @@ For Machine learning Model:
 Environment setup:
 -----------------
 Install python and anaconda python
+
+python3 -m pip install --user virtualenv // for virtual environment setup
+
+Create a folder for your project, In terminal cd/your folder
+
+python3 -m venv envName  //create virtual environment
+
+source envName/bin/activate // to activate environment
+
   
