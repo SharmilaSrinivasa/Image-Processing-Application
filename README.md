@@ -48,5 +48,7 @@ pip install -r .txt file name
 
 pip install opencv-python  // opencv
 
+!pip install pillow //. Python Imaging Library 
+
 
   
