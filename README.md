@@ -50,5 +50,9 @@ pip install opencv-python  // opencv
 
 !pip install pillow //. Python Imaging Library 
 
+pip install flask // web framework
+
+import flask // inside the vir env (python)
+
 
   
