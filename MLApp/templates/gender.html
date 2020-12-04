@@ -1,0 +1,71 @@
+{% extends 'base.html' %} {% block bodyblock %}
+<div class="container">
+  <br />
+  <h1 class="content">
+    It's about <span style="color: #198b90">Gender Prediction</span>
+  </h1>
+  <style>
+    p {
+      font-size: larger;
+      font-family: Palatino Linotype;
+      color: #198b90;
+    }
+  </style>
+  <p>
+    MLAPP is able to detect wether you are a man or a woman in real time. This
+    app is driven by data and machine learning model. As soon as user upload the
+    image, in background model validate the image to get prediction based on
+    face recognition.
+  </p>
+  <br />
+  <ul class="list-unstyled">
+    <li class="media">
+      <img
+        src="{{url_for('static',filename='images/browse.jpg')}}"
+        class="mr-3"
+        width="120"
+        height="120"
+        alt=""
+        loading="lazy"
+      />
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Upload a picture</h5>
+        Browse and uplaod the image to be predicted.
+      </div>
+    </li>
+    <li class="media my-4">
+      <img
+        src="{{url_for('static',filename='images/model.jpg')}}"
+        class="mr-3"
+        width="150"
+        height="150"
+        alt=""
+        loading="lazy"
+      />
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Validate the model</h5>
+        Machine learning model validation in background.
+      </div>
+    </li>
+    <li class="media">
+      <img
+        src="{{url_for('static',filename='images/result.jpg')}}"
+        class="mr-3"
+        width="180"
+        height="150"
+        alt=""
+        loading="lazy"
+      />
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Gender prediction</h5>
+        Gender predicted image with appropriate tagging.
+      </div>
+    </li>
+  </ul>
+  <div align="center">
+    <a href="{{ url_for('genderModel') }}" class="btn btn-outline-info"
+      >Try it now</a
+    >
+  </div>
+</div>
+{% endblock %}
